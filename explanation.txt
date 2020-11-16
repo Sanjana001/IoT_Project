@@ -12,3 +12,8 @@ Properties which are marked as READ/WRITE in the Cloud Thing will also have
 functions which are called when their values are changed from the
 Dashboard. These functions are generated with the Thing and added at the
 end of this sketch.
+
+setDebugMessageLevel(2) function allows you to obtain more information related
+to the state of network and IoT cloud connection and errors the higher
+number the more granular information you'll get. The default is 0 (only errors)
+and the maximum is 4.
